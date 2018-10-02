@@ -1,0 +1,29 @@
+
+################
+# Dependencies #
+################
+
+
+spdlog
+https://github.com/gabime/spdlog
+
+
+SeqAn
+https://github.com/seqan/seqan
+
+
+Edlib
+https://github.com/Martinsos/edlib
+
+
+####################
+# Other references #
+####################
+
+
+moodycamel::ConcurrentQueue
+https://github.com/cameron314/concurrentqueue.git
+
+
+mrFAST
+https://github.com/BilkentCompGen/mrfast

@@ -1,0 +1,28 @@
+
+[1] Multithreading
+* benchmark vs mrFAST
+* benchmark: speedup with # of threads?
+* 
+
+
+[2] CMake
+* cleanup
+* debug / release builds
+
+
+[3] Per module logging
+* selective enable/disable logging
+
+
+[4] Speed up by not resolving alignments fully
+* calculate only edit distance and save positions to file
+* resolve alignments on demand - after search
+* create a separate program to resolve alignments
+
+
+[5] Test: compare to mrFAST
+* positions may be slightly off in some cases, where mrFAST has problems with edge clipping
+* need python script to handle the clipping differences above
+
+
+[6] Still some duplicates in alignments produced (output)

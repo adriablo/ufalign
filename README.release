@@ -1,0 +1,12 @@
+
+To enable RELEASE build, with all compilation and runtime optimizations:
+
+
+(1) build edlib with CMAKE_BUILD_TYPE=Release
+See:  https://github.com/Martinsos/edlib,  http://martinsosic.com/edlib/
+
+
+(2) build SeqAn based project with release options
+See:
+https://seqan.readthedocs.io/en/master/Infrastructure/Use/CustomBuildSystem.html#release-optimized-builds
+https://seqan.readthedocs.io/en/master/Infrastructure/Use/CustomBuildSystem.html#seqan-enable-debug

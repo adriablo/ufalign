@@ -1,0 +1,20 @@
+
+This directory contains runtime data: sequence and index files
+
+Example directory listing:
+
+chr1.fa
+chr1.lf.drp
+chr1.lf.drs
+chr1.lf.drv
+chr1.lf.drv.sbl
+chr1.lf.pst
+chr1.sa.ind
+chr1.sa.len
+chr1.sa.val
+chr1.txt
+q_big.fa
+query.fa
+README
+target.fa
+target.fa.index

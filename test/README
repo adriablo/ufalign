@@ -1,0 +1,10 @@
+
+NOTES
+
+* SPEED: logging has significant impact on speed; should set level to 'warn'
+
+* SPEED: output stream mutex (gSAMOutMutex) does NOT have significant impact on speed
+
+* SPEED: multiple threads do NOT saturate the CPU core(s) - is there any locking/contention inside SeqAn?
+
+* SPEED: single-thread is actually much slower than multi-thread; multi-threading is an obvious improvement
